@@ -21,7 +21,7 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 
 1. Begin by plugging a **CAT6** cable into **Port 1** on the **S4112-T** switch and the other end into the **Operator Switch**
 
-| <img src="https://github.com/sealingtech/DDS-Documentation/blob/master/DDS_UserManual_Media/step1tswitch.png" width="700px"> |
+| <img src="https://user-images.githubusercontent.com/10658186/127578439-35a49058-a105-4b2c-b821-5dc56ca85e58.png" width="700px"> |
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Step 1 T Switch_                                                                                                              |_
 
