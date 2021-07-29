@@ -21,13 +21,13 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 
 1. Begin by plugging a **CAT6** cable into **Port 1** on the **S4112-T** switch and the other end into the **Operator Switch**
 
-| <img src="https://user-images.githubusercontent.com/10658186/127578439-35a49058-a105-4b2c-b821-5dc56ca85e58.png" width="700px"> |
+| <img src="https://user-images.githubusercontent.com/10658186/127578645-b51b80ef-0f04-4a2e-876e-c58b745cdf8f.png" width="700px"> |
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Step 1 T Switch_                                                                                                              |_
 
 2. Using a **CAT6** cable, connect **Nodes 1-8 IPMI** into **Ports 5-12** on the **T** switch ***change image**
 
-| <img src="https://github.com/sealingtech/DDS-Documentation/blob/master/DDS_UserManual_Media/step2tswitch.png" width="700px"> |
+| <img src="https://user-images.githubusercontent.com/10658186/127578814-1868c6bd-fca8-426c-ba46-293b78a59286.png" width="700px"> |
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Step 2 T Switch_                                                                                                            |
 
