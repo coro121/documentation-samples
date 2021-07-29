@@ -48,13 +48,13 @@ If the root password is known, simply login as root and use the **`passwd`** com
 
 1. Reboot or power on the system and press **`‘e’`** to edit the installed OS bootloader, (1st boot option), when the boot menu displays
 
-| <img src="https://github.com/sealingtech/DDS-Documentation/blob/master/DDS_Software_Administration_Manual_Media/RHEL-Boot-Selector.png" alt="RHEL Boot Selector" width="450px"> |
+| <img src="https://user-images.githubusercontent.com/10658186/127578182-79978437-8b98-4700-9e76-fa4fca0710ac.png" alt="RHEL Boot Selector" width="450px"> |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | _RHEL Boot Selector_                                                                                                                                                                 |
 
 2. Towards the bottom of the page, locate the grub options (indicated by the **`'linux16 /vmlinuz-\<kernel>'`** precursor) and add the **`rd.break`** option to the end of the line. This will allow edits to the initial ramdisk (**`initrd`**) environment.
 
-| <img src="https://github.com/sealingtech/DDS-Documentation/blob/master/DDS_Software_Administration_Manual_Media/RHEL-edit-boot-option.png" alt="RHEL Edit Boot Option" width="450px"> |
+| <img src="https://user-images.githubusercontent.com/10658186/127577907-35fa3481-7b68-47fb-a80f-328c22ca6cae.png" width="450px"> |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | _RHEL Edit Boot Options_                                                                                                                                                                   |
 
