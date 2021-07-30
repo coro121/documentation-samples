@@ -33,13 +33,13 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 
 3. Using **QSFP Breakout** cable, connect **Nodes 1-4 eno 7** into **Port 13** on the **T** Switch
 
-| <img src="https://github.com/sealingtech/DDS-Documentation/blob/master/DDS_UserManual_Media/step3tswitch.png" width="700px"> |
+| <img src="https://user-images.githubusercontent.com/10658186/127578968-29839bc8-47de-4e08-8000-9ffc9d22d3bc.png" width="700px"> |
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Step 3 T Switch_                                                                                                            |
 
 4. Using a **QSFP Breakout** cable, connect **Nodes 5-8 eno 7** into **Port 14**
 
-| <img src="https://github.com/sealingtech/DDS-Documentation/blob/master/DDS_UserManual_Media/step4tswitch.png" width="700px"> |
+| <img src="https://user-images.githubusercontent.com/10658186/127579097-7e3712e2-bc35-43dd-93d7-da5e8e43a990.png" width="700px"> |
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Step 4 T Switch_                                                                                                            |
 
@@ -52,19 +52,19 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 
 1. Using an **SFP DAC** cable, connect the **Thunderbolt** adapter to **Port 1** on the **S4112-F** switch. Take the **USB** cable from the **Thunderbolt** adapter and connect to the **Deployment Laptop**
 
-| <img src="https://github.com/sealingtech/DDS-Documentation/blob/master/DDS_UserManual_Media/step1fswitch.png" width="700px"> |
+| <img src="https://user-images.githubusercontent.com/10658186/127579560-67d98322-1d90-4982-b6aa-feb26e06773a.png" width="700px"> |
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Step 1 F Switch_                                                                                                            |
 
 2. Using a **QSFP Breakout** cable, connect **Nodes 5-8 eno 8** into **Port 13**
 
-| <img src="https://github.com/sealingtech/DDS-Documentation/blob/master/DDS_UserManual_Media/step2fswitch.png" width="700px"> |
+| <img src="https://user-images.githubusercontent.com/10658186/127582352-096f23d8-8a7f-4eb9-8abb-24c62f2c6048.png" width="700px"> |
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Step 2 F Switch_                                                                                                            |
 
 3. Using a **QSFP Breakout** cable, connect **Nodes 1-4 eno 8** into **Port 14**
 
-| <img src="https://github.com/sealingtech/DDS-Documentation/blob/master/DDS_UserManual_Media/step3fswitch.png" width="700px"> |
+| <img src="https://user-images.githubusercontent.com/10658186/127582427-c7384938-81ee-4422-8685-f54d60078ad5.png" width="700px"> |
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Step 3 F Switch_                                                                                                            |
 
@@ -76,7 +76,7 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 
 1. Using a **100G** cable, connect the **S4112-T** switch, **Port 15** to the **S4112-F** switch, **Port 15**
 
-| <img src="https://github.com/sealingtech/DDS-Documentation/blob/master/DDS_UserManual_Media/Step1Both.png" width="700px"> |
+| <img src="https://user-images.githubusercontent.com/10658186/127582862-237d41c2-5cfa-419c-aa88-82eeca7378b3.png" width="700px"> |
 |---------------------------------------------------------------------------------------------------------------------------|
 | _Step 1 Both Switches_                                                                                                    |
 
@@ -88,7 +88,7 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 
 1. Using an **SFP Dac** cable, connect **Node 7 eno 8** to the **Gigamon Tap Port A Monitor/Tool**. Connect **Node 7 eno 7** to **Port B-Monitor/Tool**
 
-| <img src="https://github.com/sealingtech/DDS-Documentation/blob/master/DDS_UserManual_Media/Step1Gigamon.png" width="700px"> |
+| <img src="https://user-images.githubusercontent.com/10658186/127582544-29d04937-a169-4fea-8553-2e1bb620d04a.png" width="700px"> |
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Gigamon Tap_                                                                                                                |
 
