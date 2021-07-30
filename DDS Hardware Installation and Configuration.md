@@ -4,10 +4,6 @@
 
 The Deployable Defensive System (DDS) is a modular fly-away computing cluster that is purpose-built for conducting Defensive Cyber Operations (DCO) missions. This kit provides a platform with hardware and software for the US Army and their DoD mission partners. 
 
-## Safety Summary
-
-The following are general safety precautions and instructions not related to any specific procedure and, therefore, do not appear elsewhere in this manual. These are recommended precautions and procedures that personnel must understand and apply during many phases of operation and maintenance.
-
 ## Installation and Configuration
 
 The DDS Modular (Large) kit provides an ample amount of compute and storage for handling traffic via distributed collection/analysis. Using a total of eight nodes, it is designed to aggregate network traffic in excess of 15 Gbps. It can also be broken into smaller, powerful sensors distributed to separate collection points across one or more networks.
