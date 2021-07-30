@@ -1,4 +1,4 @@
-# Hi 👋🏾, I'm Courtney, an intellectually curious Tech Writer
+# Hi 👋🏾 I'm Courtney, an intellectually curious Tech Writer
 
 ## About Me
 
