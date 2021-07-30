@@ -91,7 +91,6 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 ### System Power Up Sequence
 
 To power up the system, begin by cabling to switches and nodes first. Next, power on the switches, followed by the laptop. Lastly, power on servers.
-Again, this document assumes that the NERD CURE software is deployed and providing a hyperconverged RHEV platform.
 
 1. Power on all nodes and wait approximately 5 minutes for them to power up.
 
@@ -128,7 +127,7 @@ hosted-engine --vm-status
 
 ### Power Down Sequence
 
-The power down sequence is dependent upon what operating system and platform is deployed on the DDS-M kit. For purpose of this document it is assumed that the NERD CURE software is deployed and providing a hyperconverged RHEV platform. Proper startup/shutdown procedures should always be followed to prevent the loss of data.
+The power down sequence is dependent upon what operating system and platform is deployed on the DDS-M kit. Proper startup/shutdown procedures should always be followed to prevent the loss of data.
 
 1. With a web browser, go to hosted engine and select **Administration Portal**. Turn off all virtual machines by selecting **`Compute > Virtual Machines`**, choosing each one and selecting **Shutdown**. Wait until they are all turned off.
 
