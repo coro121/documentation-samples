@@ -110,21 +110,21 @@ Again, this document assumes that the NERD CURE software is deployed and providi
 
 3. SSH into each node, in separate tabs, and start the **`ovirt-ha-broker`** and the **`ovirt-ha-agent`**
 
-   ```python
-    systemctl start ovirt-ha-broker; systemctl start ovirt-ha-agent
-   ```
+```python
+systemctl start ovirt-ha-broker; systemctl start ovirt-ha-agent
+```
 
 4. Exit maintenance mode of the hosted engine
 
-    ```python
-    hosted-engine --set-maintenance --mode=none
-    ```
+```python
+hosted-engine --set-maintenance --mode=none
+```
 
 5. The hosted engine VM can take some time to boot up. You can verify the process by entering:
 
-    ```python
-    hosted-engine --vm-status
-    ```
+```python
+hosted-engine --vm-status
+```
 
 6. With a web browser, log onto the hosted engine by entering **`[kit number]cpb.mil.`** Turn from the GUI and activate all storage domains by going to **`Storage > Domains`** and activating all storage domains
 
@@ -140,50 +140,50 @@ The power down sequence is dependent upon what operating system and platform is 
 
 3. SSH into one of the nodes and run the following commands to enter into maintenance mode and shutdown the hosted engine.
 
-   ```python
-   hosted-engine --set-maintenance --mode=global
-   hosted-engine --vm-shutdown
-   ```
+```python
+hosted-engine --set-maintenance --mode=global
+hosted-engine --vm-shutdown
+```
 
 4. Confirm the hosted engine is shut down by entering the following
 
-    ```python
-    hosted-engine --vm-status
-    ```
+```python
+hosted-engine --vm-status
+```
 
 5. Logon to all nodes with SSH (it is best to do this in multiple tabs with each tab being a separate VM). Proceed with shutting down services:
 
-    ```python
-    systemctl top ovirt-ha-broker;systemctl stop ovirt-ha-agent
-    ```
+```python
+systemctl top ovirt-ha-broker;systemctl stop ovirt-ha-agent
+```
 
 6. On each node, disconnect storage using the following command:
 
-    ```python
-    hosted-engine --disconnect-storage
-    ```
+```python
+hosted-engine --disconnect-storage
+```
 
 7. From one of the nodes, open the gluster cli
 
-    ```python
-    gluster
-    ```
+```python
+gluster
+```
 
 8. Get the names of the volumes with the following command:
 
-    ```python
-   [root@node1 ~]# gluster
-   gluster> volume list
-   data
-   engine
-   vmstore
-   ```
+```python
+[root@node1 ~]# gluster
+gluster> volume list
+data
+engine
+vmstore
+```
 
 9. Stop each volume with the command
 
-    ```python
-    volume stop <volume name>
-    ```
+```python
+volume stop <volume name>
+```
 
 10. Turn off each system
 
