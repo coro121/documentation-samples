@@ -13,3 +13,6 @@ The files in this repository include the following:
 * **Introduction to ARIA Attributes**
     * Documentation geared towards giving a high-level scope of the Web Accessibility Initiative's Accessible Rich Internet Applications attributes
 
+* **Documentation Workflow**
+    * Business process representation of a documentation request received into the documentation Jira project.
+
