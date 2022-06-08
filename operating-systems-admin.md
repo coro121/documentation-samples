@@ -1,16 +1,16 @@
 # DDS Operating System Administration
 
-The Deployable Defensive System (DDS) is a modular fly-away computing cluster that is purpose-built for conducting Defensive Cyber Operations (DCO) missions. This kit provides a platform with hardware and software for the US Army and their DoD mission partners.
+The Deployable Defensive System (DDS) is a modular fly-away computing cluster that is purpose-built for conducting Defensive Cyber Operations (DCO) missions. This kit provides a platform with hardware and software for the US Army and its DoD mission partners.
 
-## Operating System Administration
+## Operating system administration
 
 System administration is based upon Red Hat Enterprise Linux (RHEL), a lightweight, enterprise-supported Linux Operating System (OS) developed by Red Hat. This OS gives users the flexibility of the Linux environment while also maintaining a level of support, security, and stability for production purposes.
 
-### Common Administration Commands
+### Common administration commands
 
 When using RHEL, there are many commands, concepts, and tools to familiarize yourself with as operators. These commands will be common across RHEL and RHVH Operating Systems. However, other distributions of Linux may vary. Within this section, we’ve created a cheat sheet of commands related to common administration tasks operators may need to perform.
 
-#### Common CLI Commands
+#### Common CLI commands
 
 | Command                            | Use                                                                                               |
 |------------------------------------|---------------------------------------------------------------------------------------------------|
@@ -38,11 +38,11 @@ When using RHEL, there are many commands, concepts, and tools to familiarize you
 | `systemctl shutdown`               | System shutdown                                                                                  |
 | `systemctl restart`                | System restart                                                                                   |
 
-### User Management
+### User management
 User and password management is critical for maintaining kit operations and access to all infrastructure, services, and tools. Passwords for all infrastructure and services deployed by
 automation are stored in **/opt/test/ansible_main/passwords.yml**. The majority of users should be managed within **IdM** to enable authentication across the cluster. Operators should not change local user passwords or application passwords unless necessary; they are randomly generated upon install. However, the loss of a root password requires a specific set of tasks to recover.
 
-#### Reset Root Password
+#### Reset root password
 
 If the root password is known, simply login as root and use the **`passwd`** command to enter a new root password. However if the root password is lost, create a new one by doing the following:
 
@@ -91,11 +91,11 @@ switch_root:/# exit
 logout
 ```
 
-### Network Management
+### Network management
 
 Networking is a vital part of the RHEL 7.7 OS and can be configured numerous ways. The most common administrative tasks are described below.
 
-#### Viewing IP Address Information
+#### Viewing IP address information
 
 1. To view current network configuration, for all interfaces, use the following command:
 
@@ -109,7 +109,7 @@ Networking is a vital part of the RHEL 7.7 OS and can be configured numerous way
 [user@host ~]# ip addr eth0
 ```
 
-#### Configuring Network Interfaces
+#### Configuring network interfaces
 
 In RHEL, network address configuration is stored within the following directory:
 
