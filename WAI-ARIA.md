@@ -1,7 +1,7 @@
 # Introduction to ARIA Attributes
 
 ## About WAI-ARIA
-The [Web Accessibility Initiative's Accessible Rich Internet Applications](https://www.w3.org/TR/wai-aria/#intro_ria_accessibility) (WAI-ARIA or just ARIA) offers a set of attributes that can be applied to HTML elements, making web content and applications more accessible to people with disabilities. The core ARIA component, `role`, allows screen readers to more explicitly describe the intentions of web content or application to the user; it defines what an element does. Please note, elements can only have one `role`.
+The [Web Accessibility Initiative's Accessible Rich Internet Applications](https://www.w3.org/TR/wai-aria/#intro_ria_accessibility) (WAI-ARIA or just ARIA) offers a set of attributes that can be applied to HTML elements, making web content and applications more accessible to people with disabilities. The core ARIA component `role`, allows screen readers to more explicitly describe the intentions of web content or application to the user; it defines what an element does. Please note, that elements can only have one `role`.
 
 There are 6 categories of [WAI-ARIA roles](https://www.w3.org/TR/wai-aria-1.1/#roles_categorization):
 
@@ -19,7 +19,7 @@ ARIA also provides attributes, which are slightly different from roles. ARIA att
 
 ## Why ARIA Matters
 
-When a developer intends to implement ARIA, using either [roles](https://www.w3.org/TR/wai-aria-1.0/roles) and/or [states and properties](https://www.w3.org/TR/wai-aria-1.0/states_and_properties), they must be used in accordance with ARIA guidelines. When values are invalid, the attributes could render web content useless; having no effect on a taken action or reporting inaccurate UI information.
+When a developer intends to implement ARIA, using either [roles](https://www.w3.org/TR/wai-aria-1.0/roles) and/or [states and properties](https://www.w3.org/TR/wai-aria-1.0/states_and_properties), they must be used per ARIA guidelines. When values are invalid, the attributes could render web content useless; having no effect on a taken action or reporting inaccurate UI information.
 
 ## Common ARIA Mistakes
 
