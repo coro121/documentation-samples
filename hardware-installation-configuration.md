@@ -4,11 +4,11 @@
 
 The Deployable Defensive System (DDS) is a modular fly-away computing cluster that is purpose-built for conducting Defensive Cyber Operations (DCO) missions. This kit provides a platform with hardware and software for the US Army and their DoD mission partners. 
 
-## Installation and Configuration
+## Installation and configuration
 
 The DDS Modular (Large) kit provides an ample amount of compute and storage for handling traffic via distributed collection/analysis. Using a total of eight nodes, it is designed to aggregate network traffic in excess of 15 Gbps. It can also be broken into smaller, powerful sensors distributed to separate collection points across one or more networks.
 
-### Connecting to the S4112-T Switch
+### Connect to the S4112-T switch
 
 | Cables Needed for T-Switch Connections                        |
 |---------------------------------------------------------------|
@@ -39,7 +39,7 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Step 4 T Switch_                                                                                                            |
 
-### Connecting to the S4112-F Switch
+### Connect to the S4112-F switch
 
 | Cable Needed for F-Switch Connections                         |
 |---------------------------------------------------------------|
@@ -64,7 +64,7 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Step 3 F Switch_                                                                                                            |
 
-### Connecting Both Switches
+### Connect both switches
 
 | Cable Needed for S4112-T to S4112-F Connection    |
 |---------------------------------------------------|
@@ -76,7 +76,7 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 |---------------------------------------------------------------------------------------------------------------------------|
 | _Step 1 Both Switches_                                                                                                    |
 
-### Connecting to the Gigamon Network Tap
+### Connect to the Gigamon Network Tap
 
 | Cable Needed for Gigamon Connection             |
 |-------------------------------------------------|
@@ -88,7 +88,7 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Gigamon Tap_                                                                                                                |
 
-### System Power Up Sequence
+### System power up sequence
 
 To power up the system, begin by cabling to switches and nodes first. Next, power on the switches, followed by the laptop. Lastly, power on servers.
 
@@ -125,7 +125,7 @@ hosted-engine --vm-status
 
 7. Start all virtual machines by selecting **`Computer > Virtual Machines`**, choosing each one, and selecting **Run**. Wait until all nodes are turned on.
 
-### Power Down Sequence
+### Power down sequence
 
 The power down sequence is dependent upon what operating system and platform is deployed on the DDS-M kit. Proper startup/shutdown procedures should always be followed to prevent the loss of data.
 
