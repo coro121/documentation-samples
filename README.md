@@ -1,8 +1,10 @@
 # Hi 👋🏾 I'm Courtney, an intellectually curious Senior Technical Writer
 
-## About Me
+## About me
 
 I want to bring my love for writing, knowledge-sharing, and technology to a mission-driven and impactful organization.
+
+## Writing samples
 
 The files in this repository include the following:
 
