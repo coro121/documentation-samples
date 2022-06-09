@@ -33,7 +33,7 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 |------------------------------------------------------------------------------------------------------------------------------|
 | _Step 3 T Switch_                                                                                                            |
 
-4. Using a different **QSFP Breakout** cable, connect **Nodes 5-8 eno 7** into **Port 14**.
+4. Using the other **QSFP Breakout** cable, connect **Nodes 5-8 eno 7** into **Port 14**.
 
 | <img src="https://user-images.githubusercontent.com/10658186/127579097-7e3712e2-bc35-43dd-93d7-da5e8e43a990.png" width="500px"> |
 |------------------------------------------------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ To start the system sequence, begin by following the above procedure to connect 
 
 2. SSH into one of the nodes, enter the `gluster` CLI, and start each volume.
 
-> **Note**: The volume list will show which volumes are available.
+> **Tip**: The volume list will show which volumes are available.
 
   ```python
   [root@node1 ~]# gluster
