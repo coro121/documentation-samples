@@ -6,7 +6,7 @@ The Deployable Defensive System (DDS) is a modular fly-away computing cluster th
 
 ## Installation and configuration
 
-The DDS Modular (Large) kit provides an ample amount of compute and storage for handling traffic via distributed collection/analysis. Using a total of eight nodes, it is designed to aggregate network traffic above 15 Gbps. It can also be broken into smaller, powerful sensors distributed to separate collection points across one or more networks.
+The DDS Modular (Large) kit provides an ample amount of compute and storage for handling traffic via distributed collection and analysis. Using a total of eight nodes, it is designed to aggregate network traffic above 15 Gbps. It can also be broken into smaller, powerful sensors distributed to separate collection points across one or more networks.
 
 ### Connect to the S4112-T switch
 
