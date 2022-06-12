@@ -1,6 +1,6 @@
 # Documentation workflow
 
-A major pain point for the documentation team was bottlenecks. Requests to resolve bugs in documentation, major revisions or updates, and requests for new pages, lacked information critical to resolving issues. This problem resulted in driving up the average ticket age and subsequently contributed to longer resolution times.
+A major pain point for the documentation team was bottlenecking. Requests to resolve bugs in documentation, major revisions or updates, and requests for new pages lacked information critical to resolving issues. This problem resulted in driving up the average ticket age and subsequently contributed to longer resolution times.
 
 To highlight the problem, I created a workflow.
 
