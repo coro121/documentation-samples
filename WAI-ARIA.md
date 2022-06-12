@@ -14,7 +14,7 @@ The are 6 categories for [WAI-ARIA roles](https://www.w3.org/TR/wai-aria-1.1/#ro
 * **Window** roles assist in creating a sub-window within your webpage. The two roles that include window roles are `alertdialog` and `dialog`.
 * **Document structure** roles give information about a non-interactive, static section of your webpage. Common document structure roles are `article`, `table`, and `heading`.
 * **Live region** roles assist by informing assistive technologies about the dynamic content of a webpage. They work together with the `aria-live` attribute. `alert`, `log`, and `timer` are commonly used live region roles.
-* **Abstract** roles are the foundation which other WAI-ARIA roles are based upon. Abstract roles are used by browsers and not developers
+* **Abstract** roles are the foundation which other WAI-ARIA roles are based upon. Abstract roles are used by browsers and not developers.
 
 ARIA includes attributes, which are slightly different from roles. Those attributes are prefixed by `aria-` and added to HTML in the same way as `role`, with a wide range of more attributes available. There are two types of attributes and [states and properties](https://www.w3.org/TR/wai-aria/#states_and_properties):
 
