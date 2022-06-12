@@ -1,12 +1,12 @@
-# DDS Hardware Installation and Configuration
+# Deployable defensive system hardware installation and configuration
 
 ## Introduction
 
-The Deployable Defensive System (DDS) is a modular fly-away computing cluster that is purpose-built for conducting Defensive Cyber Operations (DCO) missions. This kit provides a platform with hardware and software for the US Army and its DoD mission partners.
+The Deployable Defensive System (DDS) is a modular fly away computing cluster that's purpose-built for conducting Defensive Cyber Operations (DCO) missions. This kit provides a platform with hardware and software for the United States Army and its DoD mission partners.
 
 ## Installation and configuration
 
-The DDS Modular (Large) kit provides an ample amount of compute and storage for handling traffic via distributed collection and analysis. Using a total of eight nodes, it is designed to aggregate network traffic above 15 Gbps. It can also be broken into smaller, powerful sensors distributed to separate collection points across one or more networks.
+The DDS Modular (Large) kit provides an ample amount of compute and storage for handling traffic via distributed collection and analysis. Using a total of eight nodes, it's designed to aggregate network traffic above 15 Gbps. It can also be broken into smaller, powerful sensors distributed to separate collection points across one or more networks.
 
 ### Connect to the S4112-T switch
 
@@ -92,11 +92,11 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 
 ### System power-up sequence
 
-To start the system sequence, begin by following the above procedure to connect switches and nodes. Next, power on the switches, followed by the laptop. Lastly, start the servers.
+To start the system sequence, follow the Installation and configuration procedure, described earlier. Next, turn on the switches, then the laptop, and lastly, the servers.
 
-1. Start all nodes and wait approximately 5 minutes to complete loading.
+1. Start all nodes and wait about 5 minutes to complete loading.
 
-2. SSH into one of the nodes, enter the `gluster` CLI, and start each volume.
+2. SSH into a node, enter the `gluster` command-line tool, and open each volume.
 
 > **Tip**: The volume list will show which volumes are available.
 
