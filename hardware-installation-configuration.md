@@ -96,7 +96,7 @@ To start the system sequence, follow the Installation and configuration procedur
 
 1. Start all nodes and wait about 5 minutes to complete loading.
 
-2. SSH into a node, enter the `gluster` command-line tool, and open each volume.
+2. SSH into a node, enter the `gluster` CLI, and open each volume.
 
 > **Tip**: The volume list will show which volumes are available.
 
@@ -105,31 +105,31 @@ To start the system sequence, follow the Installation and configuration procedur
   gluster> volume start <volume name>
   ```
 
-3. SSH into each node, in separate tabs, and use the **`ovirt-ha-broker`** and **`ovirt-ha-agent`** commands to enter maintenance mode.
+3. SSH into each node, in separate tabs, and use the **`ovirt-ha-broker`** and **`ovirt-ha-agent`** commands to open maintenance mode.
 
 ```python
 systemctl start ovirt-ha-broker; systemctl start ovirt-ha-agent
 ```
 
-4. Exit maintenance mode of the hosted engine by using the `--set-maintenance` command.
+4. Exit the maintenance mode of the hosted engine using the `--set-maintenance` command.
 
 ```python
 hosted-engine --set-maintenance --mode=none
 ```
 
-The hosted engine virtual machine can take some time to load. You can verify the process by typing: 
+The hosted engine virtual machine can take some time to start. You can verify the process by typing
 
 ```python
 hosted-engine --vm-status
 ```
 
-5. With a web browser, login to the hosted engine by entering **`[kit number]cpb.mil.`**
+5. Using a web browser, login to the hosted engine by entering **`[kit number]cpb.mil.`**
 
 6. From the UI, activate all storage domains by selecting **`Storage > Domains`** .
 
 7. Start all virtual machines by selecting **`Computer > Virtual Machines`**.
 
-8. Lastly, Choose each virtual machine and select **Run**. Wait until all nodes are turned on.
+8. Last, Choose each virtual machine and select **Run**. Wait until all nodes are turned on.
 
 ### System power-down sequence
 
