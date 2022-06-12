@@ -74,7 +74,7 @@ switch_root:/# chroot /sysroot
 
 6. Reset the root user password.
 
-**Warning**
+**Warning:**
  Do NOT restart! The next step is vital to maintaining a working system.
 
 7. By default, SELinux is running and will need to be updated after the password has been created. To fix the **`/etc/shadow`** file, enter the following command:
@@ -130,5 +130,5 @@ GATEWAY=10.1.51.1
 DNS1=10.1.51.10
 ```
 
-**Note**
+**Note:**
 The **`ONBOOT=yes`** command must be included if the interface should be activated after a restart or network restart. If set to **`‘no’`**, the interface will not automatically show!
