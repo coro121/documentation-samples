@@ -1,19 +1,19 @@
-# DDS Hardware Installation and Configuration
+# Deployable defensive system hardware installation and configuration
 
 ## Introduction
 
-The Deployable Defensive System (DDS) is a modular fly-away computing cluster that is purpose-built for conducting Defensive Cyber Operations (DCO) missions. This kit provides a platform with hardware and software for the US Army and its DoD mission partners.
+The Deployable Defensive System (DDS) is a modular fly-away computing cluster that is purpose-built for conducting Defensive Cyber Operations (DCO) missions. This kit provides a platform with hardware and software for the United States Army and its DoD mission partners.
 
 ## Installation and configuration
 
-The DDS Modular (Large) kit provides an ample amount of compute and storage for handling traffic via distributed collection and analysis. Using a total of eight nodes, it is designed to aggregate network traffic above 15 Gbps. It can also be broken into smaller, powerful sensors distributed to separate collection points across one or more networks.
+The DDS Modular (Large) kit provides an ample amount of computing and storage for handling traffic via distributed collection and analysis. Using a total of eight nodes, it's designed to aggregate network traffic above 15 Gbps. It can also be broken into smaller, powerful sensors distributed to separate collection points across one or more networks.
 
 ### Connect to the S4112-T switch
 
 | Cables Needed for T-Switch Connections                        |
 |---------------------------------------------------------------|
-| **(9) CAT 6 Cables** (Model: 70596) - Indicated by green line          |
-| **(2) QSFP Breakout Cables** (Model: 36768) - Indicated by purple line |
+| **(9) CAT 6 Cables** (Model: 70596) - Indicated by the green line          |
+| **(2) QSFP Breakout Cables** (Model: 36768) - Indicated by the purple line |
 
 1. Begin by plugging a **CAT6** cable into **Port 1** on the **S4112-T** switch and the other end of the cable into the **Operator Switch**.
 
@@ -43,8 +43,8 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 
 | Cable Needed for F-Switch Connections                         |
 |---------------------------------------------------------------|
-| **(2) QSFP Breakout Cables** (Model: 36768) - Indicated by purple line |
-| **(1) SFP DAC Cable** (Model: 40141) - Indicated by blue line               |
+| **(2) QSFP Breakout Cables** (Model: 36768) - Indicated by the purple line |
+| **(1) SFP DAC Cable** (Model: 40141) - Indicated by the blue line               |
 
 1. Use the **SFP DAC** cable to connect the **Thunderbolt** adapter to **Port 1** on the **S4112-F** switch. Take the **USB** cable from the **Thunderbolt** adapter and connect to the **Deployment Laptop**.
 
@@ -68,7 +68,7 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 
 | Cable Needed for S4112-T to S4112-F Connection    |
 |---------------------------------------------------|
-| **(1) 100G Cable** (Model: 50484) - Indicated by red line |
+| **(1) 100G Cable** (Model: 50484) - Indicated by the red line |
 
 1. Use the **100G** cable to connect the **S4112-T** switch, **Port 15**, to the **S4112-F** switch, **Port 15**.
 
@@ -92,11 +92,11 @@ The DDS Modular (Large) kit provides an ample amount of compute and storage for 
 
 ### System power-up sequence
 
-To start the system sequence, begin by following the above procedure to connect switches and nodes. Next, power on the switches, followed by the laptop. Lastly, start the servers.
+To power up the system sequence, follow the Installation and configuration procedure, described [earlier](https://github.com/coro121/documentation-samples/blob/2fcfe89b480bc67d19d55f9fbdb15f2d29221919/hardware-installation-configuration.md#installation-and-configuration). Next, turn on the switches, the laptop, and lastly, the servers.
 
-1. Start all nodes and wait approximately 5 minutes to complete loading.
+1. Start all nodes and wait about 5 minutes to complete loading.
 
-2. SSH into one of the nodes, enter the `gluster` CLI, and start each volume.
+2. SSH into a node, enter the `gluster` command-line tool and open each volume.
 
 > **Tip**: The volume list will show which volumes are available.
 
@@ -111,39 +111,39 @@ To start the system sequence, begin by following the above procedure to connect 
 systemctl start ovirt-ha-broker; systemctl start ovirt-ha-agent
 ```
 
-4. Exit maintenance mode of the hosted engine by using the `--set-maintenance` command.
+4. Exit the maintenance mode of the hosted engine using the `--set-maintenance` command.
 
 ```python
 hosted-engine --set-maintenance --mode=none
 ```
 
-The hosted engine virtual machine can take some time to load. You can verify the process by typing: 
+The hosted engine virtual machine can take some time to start. You can verify the process by typing
 
 ```python
 hosted-engine --vm-status
 ```
 
-5. With a web browser, login to the hosted engine by entering **`[kit number]cpb.mil.`**
+5. Using a web browser, log in to the hosted engine by entering **`[kit number]cpb.mil.`**
 
-6. From the UI, activate all storage domains by selecting **`Storage > Domains`** .
+6. From the UI, activate all storage domains by selecting **`Storage > Domains`**.
 
 7. Start all virtual machines by selecting **`Computer > Virtual Machines`**.
 
-8. Lastly, Choose each virtual machine and select **Run**. Wait until all nodes are turned on.
+8. Last, open each virtual machine and then select **Run**. Wait until all the nodes are turned on.
 
 ### System power-down sequence
 
-The power-down sequence is dependent upon what operating system and platform are deployed on the DDS-M kit. Proper power-up and power-down procedures should always be followed to prevent the loss of data.
+The power-down sequence is dependent on what operating system and platform are deployed on the DDS-M kit. Proper power-up and power-down procedures should always be followed to prevent the loss of data.
 
 1. From a web browser, go to the hosted engine and select **Administration Portal**.
 
-2. Turn all virtual machines off by selecting **`Compute > Virtual Machines`**. Choose each virtual machine and select **Shutdown**.
+2. Turn all virtual machines off by selecting **`Compute > Virtual Machines`**. Open each virtual machine and select **Shutdown**.
 
 > **Tip:** Wait until all virtual machines are turned off before proceeding to the next step.
 
 3. Change the storage domains to maintenance mode, except for the **`hosted_storage`** domain.
 
-4. Use SSH to login to a node, type the following commands to enter maintenance mode, and shut down the hosted engine.
+4. Use SSH to login to a node, enter the next commands to open maintenance mode, and turn off the hosted engine.
 
 ```python
 hosted-engine --set-maintenance --mode=global
@@ -156,9 +156,9 @@ hosted-engine --vm-shutdown
 hosted-engine --vm-status
 ```
 
-6. Login to all nodes with SSH.
+6. Login to all nodes using SSH.
 
-> **Tip:** It is best to login using separate tabs for each virtual machine.
+> **Tip:** It's best to log in using separate tabs for each virtual machine.
 
 7. Shut down all services using the `systemctl` command.
 
@@ -172,7 +172,7 @@ systemctl stop ovirt-ha-broker;systemctl stop ovirt-ha-agent
 hosted-engine --disconnect-storage
 ```
 
-9. From one of the nodes, open the `gluster` CLI.
+9. From one of the nodes, open the `gluster` command-line tool.
 
 ```python
 gluster
@@ -188,11 +188,10 @@ engine
 vmstore
 ```
 
-11. Stop each volume with the `volume stop` command.
+11. Stop each volume using the `volume stop` command.
 
 ```python
 volume stop <volume name>
 ```
 
 12. Turn off each system.
-
