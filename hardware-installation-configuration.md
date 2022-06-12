@@ -92,7 +92,7 @@ The DDS Modular (Large) kit provides an ample amount of computing and storage fo
 
 ### System power-up sequence
 
-To power up the system sequence, follow the Installation and configuration procedure, described earlier. Next, turn on the switches, the laptop, and lastly, the servers.
+To power up the system sequence, follow the Installation and configuration procedure, described [earlier](https://github.com/coro121/documentation-samples/blob/2fcfe89b480bc67d19d55f9fbdb15f2d29221919/hardware-installation-configuration.md#installation-and-configuration). Next, turn on the switches, the laptop, and lastly, the servers.
 
 1. Start all nodes and wait about 5 minutes to complete loading.
 
