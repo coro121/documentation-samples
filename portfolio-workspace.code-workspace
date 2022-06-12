@@ -1,4 +1,5 @@
 {
+
 	"folders": [
 		{
 			"path": "."
@@ -9,4 +10,5 @@
 		"vale.valeCLI.path": "",
 		"vale.core.useCLI": false
 	}
+
 }
