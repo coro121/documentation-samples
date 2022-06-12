@@ -2,12 +2,12 @@
 
 ## About the Web Accessibility Initiative
 
-The [Web Accessibility Initiative's Accessible Rich Internet Applications](https://www.w3.org/TR/wai-aria/#intro_ria_accessibility) (WAI-ARIA or just ARIA) offers  attributes that are applied to HTML elements, making web content and applications more accessible to people with disabilities. The core ARIA component `role`, allows screen readers to more explicitly describe the intentions of web content or apps to people; it defines what an element does.
+[Web Accessibility Initiative's Accessible Rich Internet Applications](https://www.w3.org/TR/wai-aria/#intro_ria_accessibility) (WAI-ARIA or just ARIA) offers attributes that are apply to HTML elements, making web content and applications more accessible to people with disabilities. The core ARIA component `role`, lets screen readers explicitly describe the intentions of web content or apps to people.
 
-***Note***
+***Note:***
 Elements can only have one `role`.
 
-There are 6 categories for [WAI-ARIA roles](https://www.w3.org/TR/wai-aria-1.1/#roles_categorization):
+The following highlights 6 categories for [WAI-ARIA roles](https://www.w3.org/TR/wai-aria-1.1/#roles_categorization):
 
 * **Landmark** roles typically denote large areas of a document. Some examples are `banner`, `search`, and `region`
 * **Widget** roles help in making interactive elements accessible. `button`, `checkbox`, and `radio` are common examples of widget roles
