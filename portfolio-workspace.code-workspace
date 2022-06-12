@@ -1,7 +1,14 @@
 {
-    "folders": [
-        {
-            "path": "."
-        }
-    ]
+
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"vale.valeCLI.config": "",
+		"vale.valeCLI.path": "",
+		"vale.core.useCLI": false
+	}
+
 }
