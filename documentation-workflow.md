@@ -6,4 +6,4 @@ To highlight the problem, I created a workflow.
 
 ![Documentation workflow](<https://github.com/coro121/documentation-samples/blob/main/assets/docs-workflow.JPG alt="documentation ticket requests">)
 
-As a result, I worked with product operations to implement a new template in Jira. The form within the Jira issue requested justification for the request, definition of done, and links to any resources. The extra description fields helped triage tickets and improve the overall metrics.
+As a result, I worked with product operations to implement a new template in Jira. Now, the issues requested justification for the request, definition of done, and links to any resources. The extra description fields helped triage tickets and improve the overall metrics.
