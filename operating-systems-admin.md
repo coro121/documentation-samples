@@ -4,11 +4,11 @@ The Deployable Defensive System (DDS) is a modular fly-away computing cluster th
 
 ## Operating system administration
 
-System administration is based upon Red Hat Enterprise Linux (RHEL), a lightweight, enterprise-supported Linux Operating System (OS) developed by Red Hat. This OS gives users the flexibility of the Linux environment while  maintaining a level of support, security, and stability for production purposes.
+System administration is based upon Red Hat Enterprise Linux (RHEL), a lightweight, enterprise-supported Linux Operating System (OS) developed by Red Hat. This OS gives users the flexibility of the Linux environment while maintaining a level of support, security, and stability for production purposes.
 
 ### Common administration commands
 
-When using RHEL, there are many commands, concepts, and tools to familiarize yourself with as operators. These commands are common across RHEL and RHVH Operating Systems. However, other distributions of Linux may vary. Below, is a cheat sheet of commands related to common administration tasks operators may need to perform.
+When using RHEL, there are many commands, concepts, and tools to familiarize yourself with as operator. These commands are common across RHEL and RHVH Operating Systems. However, other distributions of Linux may vary. Below, is a cheat sheet of commands related to common administration tasks operators may need to perform.
 
 #### Common command-line commands
 
@@ -44,7 +44,7 @@ User and password management is critical for maintaining kit operations and acce
 
 #### Reset root password
 
-If the root password is known, log in as root and use the **`passwd`** command to create a new root password. However if the root password is lost, create a new one by taking the following steps:
+If the root password is known, log in as root and use the **`passwd`** command to create a new root password. However, if the root password is lost, create a new one by taking the following steps:
 
 1. Restart or turn on the system and enter **`‘e’`** to edit the installed OS boot-loader, (the first boot option), when the boot menu displays.
 
@@ -94,17 +94,17 @@ logout
 
 ### Network management
 
-Networking is a vital part of the RHEL 7.7 OS and can be configured many ways. The most common administrative tasks are described below.
+Networking is a vital part of the RHEL 7.7 OS and can be configured in many ways. The most common administrative tasks are described below.
 
 #### Viewing IP address information
 
-1. To view current network configuration, for all interfaces, use the following command:
+1. To view the current network configuration, for all interfaces, use the following command:
 
 ```python
 [user@host ~]# ip addr
 ```
 
-2. To find information regarding a specific interface, type the interface name after the command, example:
+2. To find information regarding a specific interface, type the interface name after the command, for example:
 
 ```python
 [user@host ~]# ip addr eth0
@@ -130,5 +130,5 @@ GATEWAY=10.1.51.1
 DNS1=10.1.51.10
 ```
 
-✎ **Note**
+**Note**
 The **`ONBOOT=yes`** command must be included if the interface should be activated after a restart or network restart. If set to **`‘no’`**, the interface will not automatically show!
