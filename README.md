@@ -6,16 +6,20 @@ I want to bring my love for writing, knowledge-sharing, and technology to a miss
 
 ## Writing samples
 
-The files in this repository include the following:
+The files in this repository include the following samples:
 
-* **DDS Hardware Installation and Configuration Manual**
+* [DDS Hardware Installation and Configuration Manual](https://github.com/coro121/documentation-samples/blob/main/hardware-installation-configuration.md)
+
   * Content geared towards military personnel building and configuring a computing cluster.
 
-* **DDS Operating System Administration**
-  * Geared towards cybersecurity engineers/military personnel.) This information includes guidance for a platform based upon a Red Hat Enterprise Linux (RHEL) operating system
-* **Introduction to ARIA Attributes**
+* [DDS Operating System Administration](https://github.com/coro121/documentation-samples/blob/main/operating-systems-admin.md)
 
-  * Documentation geared towards giving a high-level scope of the Web Accessibility Initiative's Accessible Rich Internet Applications attributes
+  * This information includes guidance for a platform based upon a Red Hat Enterprise Linux (RHEL) operating system
 
-* **Documentation Workflow**
-  * Business process documentation for requests received into the documentation Jira project.
+* [Introduction to ARIA Attributes](https://github.com/coro121/documentation-samples/blob/main/WAI-ARIA.md)
+
+  * High-level overview of the Web Accessibility Initiative's Accessible Rich Internet Applications attributes
+
+* [Documentation Workflow](https://github.com/coro121/documentation-samples/blob/main/documentation-workflow.md)
+
+  * Business process documentation for requests received into a documentation Jira project.
