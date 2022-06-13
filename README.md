@@ -14,12 +14,12 @@ The files in this repository include the following samples:
 
 * [DDS Operating System Administration](https://github.com/coro121/documentation-samples/blob/main/operating-systems-admin.md)
 
-  * Geared towards cybersecurity engineers/military personnel.) This information includes guidance for a platform based upon a Red Hat Enterprise Linux (RHEL) operating system
+  * This information includes guidance for a platform based upon a Red Hat Enterprise Linux (RHEL) operating system
 
 * [Introduction to ARIA Attributes](https://github.com/coro121/documentation-samples/blob/main/WAI-ARIA.md)
 
-  * Documentation geared towards giving a high-level scope of the Web Accessibility Initiative's Accessible Rich Internet Applications attributes
+  * High-level overview of the Web Accessibility Initiative's Accessible Rich Internet Applications attributes
 
 * [Documentation Workflow](https://github.com/coro121/documentation-samples/blob/main/documentation-workflow.md)
 
-  * Business process documentation for requests received into the documentation Jira project.
+  * Business process documentation for requests received into a documentation Jira project.
