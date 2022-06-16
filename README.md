@@ -18,7 +18,7 @@ The files in this repository include the following samples:
 
 * [Introduction to ARIA Attributes](https://github.com/coro121/documentation-samples/blob/main/WAI-ARIA.md)
 
-  * Introduction to ARIA Attributes is a document I created while working at the United States Department of Agriculture. I managed a SharePoint knowledge base that required light HTML and, wanted to have a reference for staying compliant.
+  * Introduction to ARIA Attributes is a document I created while working at the United States Department of Agriculture. I managed a SharePoint knowledge base that occasionally required light HTML.
 
 * [Documentation Workflow](https://github.com/coro121/documentation-samples/blob/main/documentation-workflow.md)
 
