@@ -6,4 +6,4 @@ To highlight the problem, I created a workflow.
 
 ![Documentation workflow](https://github.com/coro121/documentation-samples/blob/main/assets/docs-workflow.JPG)
 
-As a result, I worked with product operations to implement a new template in Jira. Now, the issues requested justification for the request, definition of done, and links to any resources. The extra description fields helped triage tickets and improve the overall metrics.
+After detailing the journey of a request, I worked with our product operations team to implement a new template in Jira. Now, when filing a Jira issue, there are fields for justification, definition of done, and links to any internal or external resources. The extra fields have helped triage tickets and improve the overall metrics for the documentation team.
