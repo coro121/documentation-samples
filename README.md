@@ -10,16 +10,16 @@ The files in this repository include the following samples:
 
 * [DDS Hardware Installation and Configuration Manual](https://github.com/coro121/documentation-samples/blob/main/hardware-installation-configuration.md)
 
-  * Content geared towards military personnel building and configuring a computing cluster.
+  * This manual was crafted to help military personnel install and configure a computing cluster during combat. All graphics were created by me, using photo editing software and Dell server stencils.
 
 * [DDS Operating System Administration](https://github.com/coro121/documentation-samples/blob/main/operating-systems-admin.md)
 
-  * This information includes guidance for a platform based upon the Red Hat Enterprise Linux (RHEL) operating system.
+  * Upon successful completion of installing the DDS hardware and accompanying configuration, the next steps included configuring the RHEL operating environment from the Linux command line.
 
 * [Introduction to ARIA Attributes](https://github.com/coro121/documentation-samples/blob/main/WAI-ARIA.md)
 
-  * Introduction to ARIA Attributes is a conceptual document intended to explain the Web Accessibility Initiative's Accessible Rich Internet Applications attributes.
+  * Introduction to ARIA Attributes is a document I created while working at the United States Department of Agriculture. I managed a SharePoint knowledge base that required light HTML and, wanted to have a reference for staying compliant.
 
 * [Documentation Workflow](https://github.com/coro121/documentation-samples/blob/main/documentation-workflow.md)
 
-  * I created a documentation workflow to demonstrate an as-is scenario for documentation requests.
+  * After assuming the role of documentation manager, I created a workflow to show the as-is scenario for documentation requests.
