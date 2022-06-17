@@ -2,7 +2,7 @@
 
 ## About me
 
-I want to bring my love for writing, knowledge-sharing, and technology to a mission-driven and impactful company.
+I want to bring my love for writing, knowledge-sharing, and technology to a mission-driven impactful company.
 
 ## Writing samples
 
@@ -14,7 +14,7 @@ The files in this repository include the following samples:
 
 * [DDS Operating System Administration](https://github.com/coro121/documentation-samples/blob/main/operating-systems-admin.md)
 
-  * Upon successful completion of installing the DDS hardware and accompanying configuration, the next steps included configuring the RHEL operating environment from the Linux command line.
+  * Upon successfully installing the DDS hardware and accompanying configuration, the next steps included configuring the RHEL operating environment from the Linux command line.
 
 * [Introduction to ARIA Attributes](https://github.com/coro121/documentation-samples/blob/main/WAI-ARIA.md)
 
@@ -23,3 +23,7 @@ The files in this repository include the following samples:
 * [Documentation Workflow](https://github.com/coro121/documentation-samples/blob/main/documentation-workflow.md)
 
   * After assuming the role of documentation manager, I created a workflow to show the as-is scenario for documentation requests.
+
+* [Field Editor UI](https://doc.lucidworks.com/fusion/5.5/nmi4j0/fields-editor-ui)
+
+  * The Fields Editor is part of the Fusion administrator console. There was a need to capture configuration fields integral to how Solr interprets data.
