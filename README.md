@@ -24,6 +24,6 @@ The files in this repository include the following samples:
 
   * After assuming the role of documentation manager, I created a workflow to show the as-is scenario for documentation requests.
 
-* [Fields Editor UI](https://doc.lucidworks.com/fusion/5.5/nmi4j0/fields-editor-ui)
+* [Fields Editor UI](https://doc.lucidworks.com/fusion/5.5/nmi4j0/fields-editor-ui){:target="_blank"}
 
   * The Fields Editor is part of the Fusion administrator console. There was a need to capture configuration fields integral to how Solr interprets data.
