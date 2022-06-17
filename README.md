@@ -27,3 +27,7 @@ The files in this repository include the following samples:
 * [Fields Editor UI](https://doc.lucidworks.com/fusion/5.5/nmi4j0/fields-editor-ui)
 
   * The Fields Editor is part of the Fusion administrator console. I created this document to help navigate the Fusion UI for indexing data.
+
+* [Fusion 5.5.0 Release Notes](https://doc.lucidworks.com/fusion/5.5/301ya6/fusion-5-5-0-release-notes)
+
+  * I worked with another writer to create release notes for the last major Fusion release.
