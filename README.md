@@ -26,4 +26,4 @@ The files in this repository include the following samples:
 
 * [Fields Editor UI](https://doc.lucidworks.com/fusion/5.5/nmi4j0/fields-editor-ui)
 
-  * The Fields Editor is part of the Fusion administrator console. There was a need to capture configuration fields integral to how Solr interprets data.
+  * The Fields Editor is part of the Fusion administrator console. I created this document to help navigate the Fusion UI for indexing data.
