@@ -6,28 +6,23 @@ I want to bring my love for writing, knowledge-sharing, and technology to a miss
 
 ## Writing samples
 
-The files in this repository include the following samples:
+### Sealing Technologies
+
+I created cybersecurity documentation for a product known as the Deployable Defensive System (DDS). Geared towards military personnel, the manuals assisted with configuring computing clusters.
 
 * [DDS Hardware Installation and Configuration Manual](https://github.com/coro121/documentation-samples/blob/main/hardware-installation-configuration.md)
 
-  * This manual was crafted to help military personnel install and configure a computing cluster during combat. All graphics were created by me, using photo editing software and Dell server stencils.
-
 * [DDS Operating System Administration](https://github.com/coro121/documentation-samples/blob/main/operating-systems-admin.md)
 
-  * Upon successfully installing the DDS hardware and accompanying configuration, the next steps included configuring the RHEL operating environment from the Linux command line.
+### Genesis Consulting
+
+During an audit of the existing style guide for a SharePoint knowledge base, I added a section dedicated to accessible rich internet applications attributes (ARIA).
 
 * [Introduction to ARIA Attributes](https://github.com/coro121/documentation-samples/blob/main/WAI-ARIA.md)
 
-  * Introduction to ARIA Attributes is a document I created while working at the United States Department of Agriculture. I managed a SharePoint knowledge base that occasionally required light HTML.
+### Lucidworks
 
-* [Documentation Workflow](https://github.com/coro121/documentation-samples/blob/main/documentation-workflow.md)
+My most recent documentation efforts.
 
-  * After assuming the role of documentation manager, I created a workflow to show the as-is scenario for documentation requests.
-
+* [Enable Tika Asynchronous Parsing](https://doc.lucidworks.com/how-to/1wdwkx/enable-tika-asynchronous-parsing)
 * [Fields Editor UI](https://doc.lucidworks.com/fusion/5.5/nmi4j0/fields-editor-ui)
-
-  * The Fields Editor is part of the Fusion administrator console. I created this document to help navigate the Fusion UI for indexing data.
-
-* [Fusion 5.5.0 Release Notes](https://doc.lucidworks.com/fusion/5.5/301ya6/fusion-5-5-0-release-notes)
-
-  * I worked with another writer to create release notes for the last major Fusion release.
