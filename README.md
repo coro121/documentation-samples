@@ -10,7 +10,7 @@ I want to bring my love for writing, knowledge-sharing, and technology to a miss
 
 Sample API references.
 
-* [API reference](https://senior-tech-writer.stoplight.io/)
+* [API references](https://senior-tech-writer.stoplight.io/)
 
 ### Lucidworks
 
