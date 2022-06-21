@@ -8,9 +8,9 @@ I want to bring my love for writing, knowledge-sharing, and technology to a miss
 
 ### Side projects
 
-In efforts to refresh my API documentation skills, I built a simple reference document.
+Sample API references.
 
-* [API reference](https://senior-tech-writer.stoplight.io/docs/open-weather/branches/main/a9f7f5dcb26b4-current-weather-data)
+* [API reference](https://senior-tech-writer.stoplight.io/)
 
 ### Lucidworks
 
