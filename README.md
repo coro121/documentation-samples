@@ -16,7 +16,6 @@ In efforts to refresh my API documentation skills, I built a simple reference do
 
 My most recent documentation efforts.
 
-* [Fusion 4.2.6 SP1 Release notes](https://doc.lucidworks.com/fusion-server/4.2/i0ukdp/fusion-4-2-6-sp-1-release-notes_)
 * [Enable Tika Asynchronous Parsing](https://doc.lucidworks.com/how-to/1wdwkx/enable-tika-asynchronous-parsing)
 * [Fields Editor UI](https://doc.lucidworks.com/fusion/5.5/nmi4j0/fields-editor-ui)
 
