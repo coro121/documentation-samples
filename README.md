@@ -8,7 +8,7 @@ I want to bring my love for writing, knowledge-sharing, and technology to a miss
 
 ### Lucidworks
 
-Most recent documentation efforts.
+My most recent documentation efforts.
 
 * [Enable Tika Asynchronous Parsing](https://doc.lucidworks.com/how-to/1wdwkx/enable-tika-asynchronous-parsing)
 * [Fields Editor UI](https://doc.lucidworks.com/fusion/5.5/nmi4j0/fields-editor-ui)
