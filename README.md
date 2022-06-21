@@ -6,12 +6,6 @@ I want to bring my love for writing, knowledge-sharing, and technology to a miss
 
 ## Writing samples
 
-### Side projects
-
-Sample API references.
-
-* [API references](https://senior-tech-writer.stoplight.io/)
-
 ### Lucidworks
 
 My most recent documentation efforts.
