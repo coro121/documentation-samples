@@ -6,6 +6,12 @@ I want to bring my love for writing, knowledge-sharing, and technology to a miss
 
 ## Writing samples
 
+### Side projects
+
+In efforts to refresh my API documentation skills, I built a simple reference document.
+
+* [API reference](https://senior-tech-writer.stoplight.io/docs/open-weather/branches/main/a9f7f5dcb26b4-current-weather-data)
+
 ### Lucidworks
 
 My most recent documentation efforts.
